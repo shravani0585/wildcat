@@ -1,15 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 27 12:28:32 2019
-
-@author: 
-Student Name:				Student ID:
-Shravani Gangi Reddy		999993962
-Prathyusha Dasyam			999993818
-Satish Lingam				999900097
-
-
-"""
 
 import sys
 
@@ -275,13 +264,11 @@ we have used system specific parameters and functions, and also imported the fun
 The comparison operators (<, <=, >, >=, == and !=) can be overloaded by providing definition to
  __lt__, __hash_, __eq__ methods, these are used to compare distance between objects.
 
-
-we represented the graph using vertex(each rows and columns represent a vertex in graph).
-In this implementation we have created two classes graph g, which has the list of 
+Represented the graph using vertex(each rows and columns represent a vertex in graph).
+In this implementation I have created two classes graph g, which has the list of 
 vertex and vertices and class vertex which uses dictionary in order to implement adjacent list.
-Using add neighbour we addressed connection from one vertex to another.
-
-we used hashable objects inorder to support custom comparisions and also used heap queue in order to
+Using add neighbour I addressed connection from one vertex to another.
+Used hashable objects inorder to support custom comparisions and also used heap queue in order to
  represent a priority queue to push, pop and maintain the heap structure.
  
 Algorithm steps:
